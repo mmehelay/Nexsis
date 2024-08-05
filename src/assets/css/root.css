@@ -614,35 +614,6 @@
     display: block;
   }
 }
-/* Dark Mode */
-@media only screen and (max-width: 63.9375rem) {
-  body.dark-mode #cs-navigation:before {
-    background-color: var(--dark);
-  }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* makes it white */
-    filter: grayscale(1) brightness(1000%);
-  }
-  body.dark-mode #cs-navigation .cs-toggle {
-    background-color: var(--secondary);
-  }
-  body.dark-mode #cs-navigation .cs-phone {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #cs-navigation .cs-phone-icon {
-    /* turns it white */
-    filter: grayscale(1) brightness(1000%);
-  }
-  body.dark-mode #cs-navigation .cs-line {
-    background-color: #fff;
-  }
-  body.dark-mode #cs-navigation .cs-ul-wrapper {
-    background-color: var(--medium);
-  }
-  body.dark-mode #cs-navigation .cs-li-link {
-    color: var(--bodyTextColorWhite);
-  }
-}
 /*-- -------------------------- -->
 <---     Navigation Dropdown    -->
 <--- -------------------------- -*/
@@ -803,15 +774,6 @@
   }
   #cs-navigation .cs-li-link.cs-drop-link:before {
     display: none;
-  }
-}
-/* Dark Mode - Desktop */
-@media only screen and (min-width: 64rem) {
-  body.dark-mode #cs-navigation .cs-drop-ul {
-    background-color: var(--dark);
-  }
-  body.dark-mode #cs-navigation .cs-li-link.cs-drop-link:hover {
-    color: var(--bodyTextColorWhite);
   }
 }
 /*-- -------------------------- -->
@@ -1025,29 +987,6 @@
 @media only screen and (min-width: 81.25rem) {
   #cs-navigation .cs-social {
     display: flex;
-  }
-}
-/* Dark Mode */
-@media only screen and (min-width: 64rem) {
-  body.dark-mode #cs-navigation {
-    background-color: var(--dark);
-  }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* turns it white */
-    filter: grayscale(1) brightness(1000%);
-  }
-  body.dark-mode #cs-navigation .cs-li-link,
-  body.dark-mode #cs-navigation .cs-phone {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #cs-navigation .cs-phone-icon {
-    filter: grayscale(1) brightness(10005);
-  }
-  body.dark-mode #cs-navigation .cs-li-link.cs-active {
-    color: var(--secondary);
-  }
-  body.dark-mode #cs-navigation .cs-li-link:hover {
-    color: var(--secondary);
   }
 }
 /*-- -------------------------- -->

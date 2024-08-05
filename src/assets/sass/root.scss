@@ -757,47 +757,6 @@
     }
 }
 
-/* Dark Mode */
-@media only screen and (max-width: 63.9375rem) {
-    body.dark-mode {
-        #cs-navigation {
-            &:before {
-                background-color: var(--dark);
-            }
-
-            .cs-logo {
-                /* makes it white */
-                filter: grayscale(1) brightness(1000%);
-            }
-
-            .cs-toggle {
-                background-color: var(--secondary);
-            }
-
-            .cs-phone {
-                color: var(--bodyTextColorWhite);
-            }
-
-            .cs-phone-icon {
-                /* turns it white */
-                filter: grayscale(1) brightness(1000%);
-            }
-
-            .cs-line {
-                background-color: #fff;
-            }
-
-            .cs-ul-wrapper {
-                background-color: var(--medium);
-            }
-
-            .cs-li-link {
-                color: var(--bodyTextColorWhite);
-            }
-        }
-    }
-}
-
 /*-- -------------------------- -->
 <---     Navigation Dropdown    -->
 <--- -------------------------- -*/
@@ -990,22 +949,6 @@
     }
 }
 
-/* Dark Mode - Desktop */
-@media only screen and (min-width: 64rem) {
-    body.dark-mode {
-        #cs-navigation {
-            .cs-drop-ul {
-                background-color: var(--dark);
-            }
-
-            .cs-li-link.cs-drop-link {
-                &:hover {
-                    color: var(--bodyTextColorWhite);
-                }
-            }
-        }
-    }
-}
 
 /*-- -------------------------- -->
 <---     Desktop Navigation     -->
@@ -1248,39 +1191,7 @@
         }
     }
 }
-
-/* Dark Mode */
-@media only screen and (min-width: 64rem) {
-    body.dark-mode {
-        #cs-navigation {
-            background-color: var(--dark);
-
-            .cs-logo {
-                /* turns it white */
-                filter: grayscale(1) brightness(1000%);
-            }
-
-            .cs-li-link,
-            .cs-phone {
-                color: var(--bodyTextColorWhite);
-            }
-
-            .cs-phone-icon {
-                filter: grayscale(1) brightness(10005);
-            }
-
-            .cs-li-link {
-                &.cs-active {
-                    color: var(--secondary);
-                }
-                &:hover {
-                    color: var(--secondary);
-                }
-            }
-        }
-    }
-}
-                                
+                                                             
 
                                 
 
