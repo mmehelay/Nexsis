@@ -1,133 +1,128 @@
 @media only screen and (min-width: 0rem) {
   #hero-855 {
-      padding: clamp(8.85rem, 16.82vw, 10.25rem) 1rem clamp(3.75rem, 7.82vw, 6.25rem);
-      background: linear-gradient(180deg, var(--primary) 0%, #111926 100%);
-      overflow: hidden;
-      position: relative;
-      z-index: 1;
+    padding: clamp(8.85rem, 16.82vw, 10.25rem) 1rem clamp(3.75rem, 7.82vw, 6.25rem);
+    background: linear-gradient(180deg, var(--primary) 0%, #111926 100%);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
   }
-
   #hero-855 .cs-container {
-      width: 100%;
-      max-width: 80rem;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 3rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
   }
-
   #hero-855 .cs-content {
-      text-align: center;
-      max-width: 39.375rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+    text-align: center;
+    max-width: 39.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-
   #hero-855 .cs-topper {
-      color: var(--bodyTextColorWhite);
-      font-weight: 700;
+    color: var(--bodyTextColorWhite);
+    font-weight: 700;
   }
-
   #hero-855 .cs-title {
-      font-size: clamp(2.2rem, 5vw, 3.8125rem);
-      font-weight: 900;
-      line-height: 1.2em;
-      text-align: center;
-      max-width: 23ch;
-      margin: 0 0 1rem 0;
-      color: var(--bodyTextColorWhite);
-      position: relative;
+    font-size: clamp(2.2rem, 5vw, 3.8125rem);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 23ch;
+    margin: 0 0 1rem 0;
+    color: var(--bodyTextColorWhite);
+    position: relative;
   }
-
   #hero-855 .cs-text {
-      font-size: clamp(1rem, 1.5vw, 1.25rem);
-      line-height: 1.5em;
-      text-align: center;
-      width: 100%;
-      max-width: 33.1875rem;
-      margin: 0 0 clamp(1.75rem, 3.92vw, 2.5rem) 0;
-      color: var(--bodyTextColorWhite);
-      opacity: 0.8;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    max-width: 33.1875rem;
+    margin: 0 0 clamp(1.75rem, 3.92vw, 2.5rem) 0;
+    color: var(--bodyTextColorWhite);
+    opacity: 0.8;
   }
-
   #hero-855 .cs-picture {
-      width: 100%;
-      max-width: 35.625rem;
-      height: clamp(25rem, 95vw, 44.5rem);
-      border-radius: 0 clamp(6.25rem, 17vw, 12.5rem) 0 clamp(6.25rem, 17vw, 12.5rem);
-      box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.16);
-      overflow: hidden;
-      display: block;
-      position: relative;
+    width: 100%;
+    max-width: 35.625rem;
+    height: clamp(25rem, 95vw, 44.5rem);
+    border-radius: 0 clamp(6.25rem, 17vw, 12.5rem) 0 clamp(6.25rem, 17vw, 12.5rem);
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    display: block;
+    position: relative;
   }
-
   #hero-855 .cs-picture img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      object-position: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
   }
-
   #hero-855 .cs-wave {
-      width: 320%;
-      height: auto;
-      display: block;
-      position: absolute;
-      left: 50%;
-      bottom: -1px;
-      transform: translateX(-50%);
-      z-index: -1;
+    width: 320%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  body.dark-mode #hero-855 {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  body.dark-mode #hero-855 .cs-title {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #hero-855 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #hero-855 .cs-number {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #hero-855 .cs-desc {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #hero-855 .cs-wave path {
+    fill: var(--dark);
   }
 }
-
 @media only screen and (min-width: 64rem) {
   #hero-855 {
-      text-align: left;
+    text-align: left;
   }
-
   #hero-855 .cs-container {
-      flex-direction: row;
-      justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
-
   #hero-855 .cs-content {
-      width: 40vw;
-      flex: none;
-      align-items: flex-start;
+    width: 40vw;
+    flex: none;
+    align-items: flex-start;
   }
-
-  #hero-855 .cs-title, #hero-855 .cs-text {
-      text-align: left;
+  #hero-855 .cs-title {
+    text-align: left;
   }
-
+  #hero-855 .cs-text {
+    text-align: left;
+  }
   #hero-855 .cs-picture {
-      height: clamp(38.9375rem, 60vw, 50.875rem);
+    height: clamp(38.9375rem, 60vw, 50.875rem);
   }
-
   #hero-855 .cs-wave {
-      width: 100%;
-      left: 0;
-      transform: none;
+    width: 100%;
+    left: 0;
+    transform: none;
   }
 }
 
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #hero-855 {
-      background-color: rgba(0, 0, 0, 0.2);
-  }
-
-  body.dark-mode #hero-855 .cs-title, body.dark-mode #hero-855 .cs-text, body.dark-mode #hero-855 .cs-number, body.dark-mode #hero-855 .cs-desc {
-      color: var(--bodyTextColorWhite);
-  }
-
-  body.dark-mode #hero-855 .cs-wave path {
-      fill: var(--dark);
-  }
-}
+/*# sourceMappingURL=critical.css.map */
