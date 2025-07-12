@@ -5,9 +5,9 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #fc443c;
+    --primary: #0a2e45;
     --primaryLight: #ffd675;
-    --secondary: #001f3f;
+    --secondary: #e09c2e;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
@@ -28,7 +28,7 @@
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     font-weight: 700;
-    color: var(--primary);
+    color: var(--secondary);
     text-align: inherit;
   }
   .cs-title {
@@ -54,7 +54,7 @@
     z-index: 1;
     position: relative;
     display: inline-block;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     width: auto;
     padding: 0 1.875rem;
     text-decoration: none;
