@@ -1,13 +1,13 @@
 module.exports = {
-    "name": "Enigma Digital",
+    "name": "The Trade Contractors",
     "email": "help@engimadigital.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "phoneForTel": "646-229-7005",
+    "phoneFormatted": "(647) 229-7005",
     "address": {
         "lineOne": "First Address Line",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
+        "city": "Toronto",
+        "state": "ON",
         "zip": "80206",
         "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
     },
