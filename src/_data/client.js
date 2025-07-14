@@ -1,6 +1,6 @@
 module.exports = {
     "name": "The Trade Contractors",
-    "email": "help@engimadigital.app",
+    "email": "tradecontractorconsulting@gmail.com",
     "phoneForTel": "646-229-7005",
     "phoneFormatted": "(647) 229-7005",
     "address": {
